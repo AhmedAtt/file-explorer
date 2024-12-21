@@ -1,5 +1,7 @@
 # File Explorer Component
 
+![Tests](https://github.com/AhmedAtt/file-explorer/actions/workflows/test.yml/badge.svg)
+
 A React component that replicates VS Code's file explorer sidebar functionality, built with React, TypeScript, and CSS.
 
 ![File Explorer Screenshot](./screenshots/FileExplorer.png)
@@ -19,10 +21,10 @@ A React component that replicates VS Code's file explorer sidebar functionality,
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/AhmedAtt/file-explorer
 
 # Navigate to the project directory
-cd [your-project-name]
+cd file-explorer
 
 # Install dependencies
 npm install
