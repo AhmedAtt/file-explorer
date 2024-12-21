@@ -15,7 +15,6 @@ A React component that replicates VS Code's file explorer sidebar functionality,
 * File selection with visual feedback
 * Context menu for files (copy, delete, rename)
 * Support for different file types with appropriate icons
-* Keyboard navigation support
 
 ## Installation
 
