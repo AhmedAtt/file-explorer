@@ -1,0 +1,68 @@
+.app {
+    display: flex;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.app__activity-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 100%;
+    background-color: #333333;
+    padding: 8px 0;
+}
+
+
+.app__activity-button {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    color: #858585;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.2s ease;
+    background-color: #333333;
+    border: 0;
+}
+
+.app__activity-button:hover {
+    color: #ffffff;
+}
+
+.app__activity-button--active {
+    color: #ffffff;
+}
+
+.app__activity-button--active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 20%;
+    height: 60%;
+    width: 2px;
+    background-color: #ffffff;
+}
+
+.app__explorer {
+    width: 300px;
+    background-color: #252526;
+    transition: width 0.2s ease, opacity 0.2s ease;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.app__explorer--collapsed {
+    width: 0;
+    opacity: 0;
+}
+
+.app__content {
+    flex: 1;
+    background-color: #1e1e1e;
+}

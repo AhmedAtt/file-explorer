@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1734810291479" clover="3.2.0">
+  <project timestamp="1734810291479" name="All files">
+    <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12" elements="55" coveredelements="55" complexity="0" loc="37" ncloc="37" packages="1" files="1" classes="1"/>
+    <file name="useFileExplorer.ts" path="C:\Users\A.Attia\WebstormProjects\jisr-file-explorer\src\components\file-explorer\hooks\useFileExplorer.ts">
+      <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="12"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="20" type="stmt"/>
+      <line num="7" count="20" type="stmt"/>
+      <line num="8" count="20" type="stmt"/>
+      <line num="11" count="20" type="stmt"/>
+      <line num="12" count="16" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="16" count="16" type="cond" truecount="1" falsecount="0"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="22" count="20" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="26" count="20" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="34" count="3" type="stmt"/>
+      <line num="38" count="20" type="stmt"/>
+      <line num="39" count="4" type="stmt"/>
+      <line num="42" count="20" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="46" count="20" type="stmt"/>
+      <line num="47" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="48" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="53" count="20" type="stmt"/>
+      <line num="54" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="55" count="1" type="stmt"/>
+      <line num="56" count="1" type="stmt"/>
+      <line num="60" count="20" type="stmt"/>
+      <line num="61" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="63" count="1" type="stmt"/>
+      <line num="67" count="20" type="stmt"/>
+    </file>
+  </project>
+</coverage>

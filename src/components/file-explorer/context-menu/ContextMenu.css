@@ -1,0 +1,32 @@
+.context-menu {
+    position: fixed;
+    background-color: #252526;
+    border: 1px solid #454545;
+    border-radius: 4px;
+    padding: 4px 0;
+    min-width: 160px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    animation: slideDown;
+}
+
+.context-menu__item {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    background: none;
+    color: #cccccc;
+    text-align: left;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.context-menu__item:hover {
+    background-color: #2a2d2e;
+}
+
+.context-menu__item:active {
+    background-color: #37373d;
+}
