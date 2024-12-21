@@ -4,9 +4,9 @@
 
 A React component that replicates VS Code's file explorer sidebar functionality, built with React, TypeScript, and CSS.
 
-![File Explorer Screenshot](./screenshots/FileExplorer.png)
+## [Live Demo](https://attia-file-explorer.netlify.app/)
 
-![Context Menu Demo](./screenshots/ContextMenu.png)
+![File Explorer Screenshot](./screenshots/FileExplorer.png)
 
 ## Features
 
@@ -15,6 +15,12 @@ A React component that replicates VS Code's file explorer sidebar functionality,
 * File selection with visual feedback
 * Context menu for files (copy, delete, rename)
 * Support for different file types with appropriate icons
+* Responsive and animated transitions
+* Built with TypeScript for type safety
+* Comprehensive test coverage
+
+## Context Menu
+![Context Menu Demo](./screenshots/ContextMenu.png)
 
 ## Installation
 
@@ -33,8 +39,12 @@ npm run dev
 ```
 
 ## Testing
-
-```bash
+```bash 
 # Run tests
 npm test
+
+# Run tests with coverage
+npm test -- --coverage
 ```
+
+
