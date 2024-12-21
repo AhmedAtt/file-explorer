@@ -1,6 +1,6 @@
 # File Explorer Component
 
-![Tests](https://github.com/AhmedAtt/file-explorer/actions/workflows/test.yml/badge.svg)
+![Tests](https://github.com/AhmedAtt/file-explorer/actions/workflows/Tests/badge.svg)
 
 A React component that replicates VS Code's file explorer sidebar functionality, built with React, TypeScript, and CSS.
 
